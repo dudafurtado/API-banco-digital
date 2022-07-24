@@ -1,0 +1,33 @@
+{
+  "name": "desafio-backend-modulo-02-sistema-bancario-t05",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudafurtado/desafio-backend-modulo-02-sistema-bancario-t05.git"
+  },
+  "keywords": [
+    "backend",
+    "node.js",
+    "desafio2",
+    "API",
+    "APIrest"
+  ],
+  "author": "Maria Eduarda Furtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudafurtado/desafio-backend-modulo-02-sistema-bancario-t05/issues"
+  },
+  "homepage": "https://github.com/dudafurtado/desafio-backend-modulo-02-sistema-bancario-t05#readme",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

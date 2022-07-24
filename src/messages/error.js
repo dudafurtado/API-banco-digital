@@ -1,0 +1,25 @@
+const errorMessage = {
+  bankPasswordDoNotExists: 'It is a must to have some kind of authorization to access this type of content',
+  wrongPassword: 'The bank password is not valid!',
+  accountNotFound: 'Bank account was not found!',
+  nameDoNotExists: 'The field name should have some content',
+  cpfDoNotExists: 'The field CPF should have some content',
+  birthdayDoNotExists: 'The birth date password should have some content',
+  phoneDoNotExists: 'The field phone should have some content',
+  emailDoNotExists: 'The field email should have some content',
+  passwordDoNotExists: 'The field password should have some content',
+  cpfAlreadyExists: 'This CPF in the field right now had been used before to made a account',
+  emailAlreadyExists: 'This email in the field right now had been used before to made a account',
+  accountNumberIsWrong: 'This account number does not exists on the list',
+  accountNumberDoNotExist: 'Need to inform which account number the deposit goes to',
+  valueDoNotExists: 'A value must be inform',
+  negativeValue: 'It is not possible to deposit a negative value, a 0 value for example',
+  passwordDoNotExists: 'It is a must to inform the account password',
+  accountPasswordWrong: 'Password for this account does not match. Please try again!',
+  withdrawNotPossible: 'It is not possible to withdraw from this account because the balance is less than the value asked',
+  withoutAccountNumberOrigin: 'Account number which will send the money need to be identified',
+  withoutAccountNumberDestiny: 'Account number which will receive the money need to be identified',
+  transferNotPossible: 'It is not possible to transfer from this account because the balance is less than the value asked',
+}
+
+module.exports = { errorMessage }
